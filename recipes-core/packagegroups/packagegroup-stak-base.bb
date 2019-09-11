@@ -177,8 +177,18 @@ RDEPENDS_packagegroup-stak-base = " \
 	eventlog \
 	libibverbs \
 	libnfsidmap \
+	net-tools \
+	hardlink \
+	deltarpm \
+	dtc \
+	dtc-dev \
+	libtpms \
+	nscd \
+	openscap \
+	polkit \
 	"
 #	libibverbs Conflicts with rdma-core
+#	qat17 
 #	docker-distribution 
 
 RDEPENDS_packagegroup-stak-ruby = " \
@@ -279,7 +289,6 @@ RDEPENDS_packagegroup-stak-python = " \
 	python-requests-oauthlib \
 	python-versiontools \
 	python-dogpile.cache \
-	python-dogpile.core \
 	python-oslo.cache \
 	python-oslo.concurrency \
 	python-oslo.config \
@@ -531,4 +540,8 @@ RDEPENDS_packagegroup-stak-python = " \
 	python3-linux-procfs \
 	python-murano-pkg-check \
 	python-oslo.upgradecheck \
+	python-xstatic-term.js \
+	python-configshell \
 	"
+
+#	python-dogpile.core
